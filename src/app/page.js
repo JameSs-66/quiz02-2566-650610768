@@ -16,11 +16,10 @@ export default function HomePage() {
         className="mx-auto p-3 rounded rounded-3 shadow-sm"
       >
         <PostOwner
-          username="Thanawat Jaisert"
-          studentId="650610768"
+          username="Thanawat Jaisert 650610768"
           profileImgPath="\profileImages\myprofile.jpg"
           postText={"Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207"}
-          likeAmount={"100"}
+          likeNum={100}
         />
 
         {comments &&
